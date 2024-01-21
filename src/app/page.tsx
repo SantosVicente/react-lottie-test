@@ -24,7 +24,9 @@ export default function Home() {
 
   return (
     <main className="flex flex-col w-screen h-screen justify-center items-center">
-      <h1 className="text-4xl font-bold z-10">Lottie Web Animations Demo</h1>
+      <h1 className="text-3xl md:text-4xl text-center font-bold z-10">
+        Lottie Web Animations Demo
+      </h1>
       <Button
         onClick={() => {
           setAnimation({
