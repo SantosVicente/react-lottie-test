@@ -1,36 +1,10 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+### Esse é um teste de uso da bibioteca do Lottie para React
 
-## Getting Started
+A lib permite o uso de animações através de JSON, e a implementação foi feita usando os links abaixo:
 
-First, run the development server:
-
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
-
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
-
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
-
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
-
-## Learn More
-
-To learn more about Next.js, take a look at the following resources:
-
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+- https://app.lottiefiles.com/ -> para pegar as animações
+- https://www.npmjs.com/package/react-lottie -> para a instalação da LIB
+  - ATENÇÃO: caso ele não reconheça o pacote ao importar Lottie de lottie-react voce precisará instalar também
+    `npm i --save-dev @types/react-lottie`
+- https://github.com/airbnb/lottie-web -> para obeter os novos comandos que o componente do Lottie aceitam que não estão listados na doc do NPM
+- https://www.awwwards.com/ -> Site para visualizar interatividade com animações para se inspirar
